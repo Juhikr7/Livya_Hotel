@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+
+    <style>
+
+     #content{
+        background-image: linear-gradient(
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)),
+            url("https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc=");
+        /* opacity: 0.5; */
+        background-repeat: no-repeat;
+         width:100%;
+        height:100vh;
+        background-size: cover;
+        background-blend-mode: darken;
+        margin-top: 10px;
+        padding-top: 300px;
+     }
+     H1{
+        text-align: center;
+        /* color:rgb(249, 247, 247); */
+        color:white;
+     }
+     nav div{
+                width:150px;
+                height:30px;
+                background-color:rgb(244, 146, 156);
+                color:white;
+                font-size:17px;
+                padding:5px;
+                border:2px solid black;
+                margin-right:30px;
+                text-align: center;
+                border-radius: 20px;
+
+            }
+            nav div:hover{
+                background-color:rgb(174, 240, 192);
+                font-size:20px;
+                height:35px;
+                transition:1s;
+                cursor:grab;
+            }
+            nav{
+                display:flex;
+                justify-content:center;
+            }
+            a{
+                text-decoration: none;
+                /* text-align: justify; */
+                color:rgb(61, 8, 8);}
+    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div id="content">
+
+    <!-- <h1>HOTEL &nbsp;LIVYA</h1> -->
+    <h1>HOTEL&nbsp; <font color="orange"  font size="20" font face="harlous">LIVYA</font></h1>
+
+    <nav>
+        <div><a href="login.html"><i class='bx bx-log-in' >&nbsp;LogIn</i></a></div>
+        <div><a href="register.html"><span><i class='bx bxs-user'>&nbsp;Register</i></span></a></div>
+        <div><a href="contact.html"><span> <i class='bx bxs-phone'>&nbsp;Contact Us</i></span></a></div>
+        <div><a href="exit.html"><span><i class='bx bxs-exit' >&nbsp;Exit</i></span></a></div>
+    </nav>
+
+</div>
+</body>
+</html>
