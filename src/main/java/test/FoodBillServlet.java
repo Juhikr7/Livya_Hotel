@@ -34,6 +34,5 @@ public class FoodBillServlet extends HttpServlet {
             int total=oub.getChikenLolipop()*250+oub.getChikenCrispy()*220+oub.getChikenButterMasala()*350+oub.getChickenHydrabadi()*330+oub.getIceCream()*99+oub.getHotGulabJamun()*89;
             pw.println("Total Bill is :"+total+"<br><hr>");
         }
-
     }
 }
